@@ -1,0 +1,579 @@
+/*-------------------------
+    #SECTION-MEDIA
+----------------------*/
+
+@media screen and (max-width: 959px) {
+  header {
+    height: 797px;
+  }
+
+  .wrapper960 {
+    padding: 0 20px;
+  }
+
+  .header-top {
+    height: 176px;
+  }
+
+  .header-top__logo {
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .navigate {
+    float: none;
+  }
+
+  .navigate ul {
+    width: 89%;
+    text-align: justify;
+  }
+
+  .navigate ul:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    text-align: justify;
+  }
+
+  .navigate__item {
+    margin-left: 0;
+  }
+
+  .navigate__item a {
+    padding: 8px 0 2px;
+  }
+
+  .slider__wrapper960 {
+    padding: 0 20px;
+  }
+
+  .iphone {
+    right: 3.8%;
+    top: -5.4%;
+  }
+
+  .iphone-blur {
+    margin: 56px 0 0 -50px;
+  }
+
+  .slider__txt-wrap {
+    padding-left: 3.6%;
+    margin-top: 14.0%;
+  }
+
+  .slider__title-bg {
+    margin-bottom: 2px;
+    font-size: 47px;
+  }
+
+  .slider__title-sm {
+    font-size: 24px;
+  }
+
+  .slider__txt {
+    overflow: hidden;
+    max-width: 300px;
+    height: 100px;
+    line-height: 26px;
+    font-size: 16px;
+  }
+
+  .slider__control {
+    padding: 36px 128px 0 0;
+  }
+
+  .about-company {
+    padding-top: 11%;
+  }
+
+  .about-company__item {
+    width: 28.5%;
+    padding-left: 8.77%;
+  }
+
+  .about-company__item h2 {
+    font-size: 24px;
+  }
+
+  .about-company__item p {
+    overflow: hidden;
+    padding-top: 0;
+    max-height: 150px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .slide--mini h2 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  .slide--mini b {
+    display: block;
+  }
+
+  .slide--mini p {
+    overflow: hidden;
+    max-height: 150px;
+    margin-top: 13px;
+  }
+
+  .slider__contro--mini {
+    padding: 8% 0 0;
+  }
+
+  .post-list {
+    padding: 4% 0 0 4%;
+  }
+
+  .post-list h2 {
+    margin: 4px 0 0 12px;
+  }
+
+  .post-list__item {
+    padding: 5% 0 0 24%;
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .post-list__item i {
+    left: 13px;
+  }
+
+  .post-list__link {
+    padding: 16px 0 0 0;
+  }
+
+  .provider-logo ul {
+    padding: 0;
+  }
+
+  .comments__block {
+    width: 25.1666%;
+  }
+
+  .comments__block h3 {
+    font-size: 24px;
+  }
+
+  .comments__block p {
+    max-height: 170px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .navigate.navigate--footer {
+    display: block;
+  }
+
+  .navigate.navigate--footer ul {
+    width: 75%;
+  }
+
+  footer p {
+    line-height: 0;
+  }
+
+  .navigate__item--footer a {
+    line-height: 110px;
+  }
+}
+
+/*SCREEN 640-779*/
+
+@media screen and (max-width: 779px) {
+
+  .navigate ul {
+    width: 100%;
+  }
+
+  .slider__control {
+    padding: 35px 0;
+    text-align: center;
+  }
+
+  .about {
+    height: 600px;
+  }
+
+  .about-company__item {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .posts {
+    height: 790px;
+  }
+
+  .wrapper-posts {
+    padding: 70px 0 0 0;
+  }
+
+  .slider__wrap {
+    display: block;
+    width: 95%;
+  }
+
+  .post-list {
+    display: block;
+    width: 100%;
+  }
+
+  .post-list__item {
+    padding: 5% 0 0 15%;
+  }
+
+  .provider-logo {
+    height: auto;
+  }
+
+  .provider-logo ul {
+    height: auto;
+  }
+
+  .provider-logo__item {
+    width: 33.3333%;
+    /*height: 115px;*/
+    padding: 30px 0;
+  }
+
+  .comments {
+    height: 670px;
+  }
+
+  .wrapper-coments-center {
+    padding-top: 80px;
+  }
+
+  .comments__block {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .navigate.navigate--footer ul {
+    width: 100%;
+  }
+
+  footer p {
+    float: none;
+    text-align: center;
+  }
+}
+
+/*SCREEN 480-639*/
+
+@media screen and (max-width: 639px) {
+  .header-top__logo {
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  header {
+    height: 548px;
+  }
+
+  .header-top {
+    height: 136px;
+  }
+
+  .navigate--top ul {
+    position: relative;
+    /*position: absolute;*/
+    z-index: 20;
+    overflow: hidden;
+    width: 247px;
+    height: 41px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .navigate--top ul:hover {
+    height: 258px;
+    border: 1px solid #051116;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: #36293e;
+    opacity: 0.8;
+  }
+
+  .navigate--top .navigate__item {
+    display: block;
+    height: 41px;
+    border-bottom: 1px solid #36283e;
+    border-top: 1px solid #523e5a;
+  }
+
+  .navigate--top .navigate__item--first {
+    position: relative;
+    border-top: transparent;
+  }
+
+  .navigate--top .navigate__item--first:after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 102px;
+    width: 45px;
+    border-bottom: 2px solid #edbfff;
+  }
+
+  .navigate--top .navigate__item:hover {
+    background: #29212f;
+  }
+
+  .navigate--top .navigate__item:hover a {
+    /*padding: 9px 0 7px;*/
+    background: #29212f;
+  }
+
+  .slider {
+    height: 245px;
+  }
+
+  .slider__txt-wrap {
+    margin-top: 22.3%;
+    padding-left: 2.6%;
+  }
+
+  .slider__title-bg {
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+
+  .slider__title-sm {
+    /*max-width: 225px;*/
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .slider__txt {
+    display: none;
+  }
+
+  .slider__img {
+    margin: 0;
+  }
+
+  .iphone {
+    right: 4.8%;
+    top: -4%;
+    width: 138px;
+  }
+
+  .iphone-blur {
+    width: 90px;
+    margin: 44px 0 0 -17px;
+  }
+
+  .slider__control {
+    padding: 24px 0;
+  }
+
+  .about {
+    height: 598px;
+  }
+
+  .about-company {
+    padding-top: 12%;
+  }
+
+  .about-company__item {
+    padding-left: 13%;
+    margin: 24px 0;
+  }
+
+  .about-company__item-ico {;
+    left: 5px;
+    top: 5px;
+  }
+
+  .posts {
+    height: 787px;
+  }
+
+  .slider__wrap {
+    width: 98%;
+    margin-left: 17px;
+  }
+
+  .slider--mini {
+    padding: 32px 24px 30px 38px;
+  }
+
+  .slider--mini h2 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+
+  .slider--mini b {
+    display: inline;
+  }
+
+  .slider--mini p {
+    max-height: 171px;
+    margin-top: 20px;
+  }
+
+  .post-list {
+    padding: 4% 0 0 10%;
+  }
+
+  .post-list__item {
+    padding: 5% 0 0 21%;
+  }
+
+  .post-list__link {
+    padding: 11px 32px 0 0;
+  }
+
+  .provider-logo ul {
+    padding: 25px;
+  }
+
+  .provider-logo__item {
+    padding: 12px 0;
+  }
+
+  .comments {
+    height: 667px;
+  }
+
+  .wrapper-coments-center {
+    padding-top: 50px;
+  }
+
+  .comments__block p {
+    max-height: 100px;
+  }
+}
+
+/*SCREEN <479 */
+
+@media screen and (max-width: 479px) {
+  header {
+    height: 516px;
+  }
+
+  .header-top__logo {
+    margin-bottom: 24px;
+  }
+
+  .slider {
+    height: 205px;
+    background: transparent;
+    text-align: center;
+  }
+
+  .slider__txt-wrap {
+    width: 100%;
+    padding: 0;
+    margin: 94px 0 0 0;
+  }
+
+  .slider__title-sm {
+    max-width: 100%;
+
+  }
+
+  .slider__img {
+    display: none;
+  }
+
+  .about-company {
+    padding-top: 70px;
+  }
+
+  .about-company__item {
+    padding-left: 22%;
+    margin: 0 0 27px 0;
+  }
+
+  .about-company__item p {
+    max-height: 70px;
+  }
+
+  .about-company__item-more {
+    padding: 21px 6px 0 0;
+  }
+
+  .slider__wrap {
+    width: 97%;
+    margin-left: 25px;
+  }
+
+  .slider--mini {
+    padding: 25px 55px 30px 34px;
+  }
+
+  .slider--mini b {
+    display: block;
+  }
+
+  .slider--mini h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .slider--mini p {
+    max-height: 165px;
+    margin-top: 4px;
+  }
+
+  .post-list {
+    padding: 21px 0 0 0;
+  }
+
+  .post-list__item {
+    padding: 22px 0 11px 65px;
+  }
+
+  .post-list h2 {
+    margin: 4px 0 0 0;
+  }
+
+  .post-list__item h3 {
+    overflow: hidden;
+    max-width: 145px;
+    white-space: nowrap;
+  }
+
+  .post-list__item i {
+    left: 0;
+  }
+
+  .post-list__item p {
+    overflow: hidden;
+    max-width: 204px;
+    white-space: nowrap;
+  }
+
+  .post-list__link {
+    padding: 16px 7px 0 0;
+  }
+
+  .provider-logo__item {
+    padding: 30px 0;
+    width: 50%;
+  }
+
+  .provider-logo ul {
+    padding: 20px;
+  }
+
+  .comments {
+    display: none;
+  }
+
+  .navigate.navigate--footer {
+    display: none;
+  }
+
+  footer p {
+    line-height: 97px;
+  }
+}
