@@ -557,7 +557,7 @@ header {
 
 .comments ul {
   width: 100%;
-  font-size: 0;
+  font-size: 1px;
   text-align: justify;
 }
 
