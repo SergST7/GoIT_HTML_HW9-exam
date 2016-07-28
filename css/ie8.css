@@ -8,3 +8,32 @@ body{
   background-color: #000;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=20)";
 }
+
+.slider__control label {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/ie8_big-slider_radio.png) top left no-repeat;
+  cursor: pointer;
+}
+
+.slider__control .active {
+  background: url(../img/ie8_big-slider_radio.png) top right no-repeat;
+}
+
+.slider__control--mini label {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/ie8_mini-slider_radio.png) top left no-repeat;
+  cursor: pointer;
+  border: 0;
+}
+.slider__control--mini label:hover {
+  border: 0;
+}
+
+.slider__control--mini .active__mini {
+  background: url(../img/ie8_mini-slider_radio.png) top right no-repeat;
+  border: 0;
+}
