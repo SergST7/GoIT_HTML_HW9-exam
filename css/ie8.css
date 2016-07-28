@@ -37,3 +37,17 @@ body{
   background: url(../img/ie8_mini-slider_radio.png) top right no-repeat;
   border: 0;
 }
+
+.post-list__item--1 i {
+  -ms-background-position-x: -5px;
+  -ms-background-position-y: -53px;
+  background-position: -5px -53px;
+}
+
+.post-list__item--2 i {
+  background-position: -5px -103px;
+}
+
+.post-list__item--3 i {
+  background-position: -5px -153px;
+}
