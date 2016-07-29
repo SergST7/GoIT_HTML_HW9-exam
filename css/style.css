@@ -117,6 +117,7 @@ header {
 .navigate ul {
   font-size: 1px;
 }
+
 /*
 .navigate ul:after {
   content: "";
@@ -933,7 +934,7 @@ footer p b {
   .header-top__logo {
     /*margin-bottom: 17px;*/
     /*text-align: center;*/
-    margin:0 auto 29px;
+    margin: 0 auto 29px;
   }
 
   header {

@@ -1,9 +1,10 @@
 /*-------------------------
     STYLE FOR IE-8
 ----------------------*/
-body{
+body {
   /*min-width: 960px;*/
 }
+
 .slider {
   background-color: #000;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=20)";
@@ -29,6 +30,7 @@ body{
   cursor: pointer;
   border: 0;
 }
+
 .slider__control--mini label:hover {
   border: 0;
 }
